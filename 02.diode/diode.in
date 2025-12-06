@@ -1,0 +1,56 @@
+go atlas
+
+TITLE PN Diode
+#meshing
+mesh space.mult=1
+x.mesh loc=0.0 spac=0.1
+x.mesh loc=10  spac=0.1
+y.mesh loc=0   spac=0.1
+y.mesh loc=0.001 spac=0.1
+y.mesh loc=2.001 spac=0.05
+y.mesh loc=4.001 spac=0.1
+y.mesh loc=4.002 spac=0.1
+
+#region
+region num=1 material=Air
+region num=2 silicon x.min =0 x.max=10 y.min=0.001 y.max=2.001
+region num=3 silicon x.min =0 x.max=10 y.min=2.001 y.max=4.001
+
+#electrode
+electrode name=anode x.min=0 x.max=10 y.min = 0.00 y.max=0.001
+electrode name=cathode x.min=0 x.max=10 y.min = 4.001 y.max=4.002
+
+#doping
+doping uniform p.type conc=5e15 reg=2
+doping uniform n.type conc=1e16 reg=3
+
+#contact
+contact name = anode
+contact name= cathode
+save outf = diode.str
+
+#model
+model bipolar
+solve init
+
+#methods
+method newton
+
+#contact
+solve vcathode=0 vanode=0
+save outf=diode_c0_a0.str
+
+solve init
+solve vcathode =1 vanode=0 
+save outf = diode_c1_a0.str
+tonyplot diode_c0_a0.str
+
+solve init
+solve vcathode=0
+log outf = diode_c0_a2.log master
+solve vanode =-2 vstep=0.05 vfinal=2 name=anode
+save outf=diode_c0_a2.str
+log off
+
+tonyplot diode_c0_a2.log
+quit

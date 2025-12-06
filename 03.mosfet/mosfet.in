@@ -1,0 +1,92 @@
+go atlas 
+
+TITLE MOSFET
+
+#Meshing
+mesh space.mult = 1
+x.mesh loc = 0.0 spac = 0.1
+x.mesh loc = 0.050 spac = 0.05
+x.mesh loc = 0.100 spac = 0.05
+x.mesh loc = 0.150 spac = 0.1
+x.mesh loc = 0.200 spac = 0.05
+x.mesh loc = 0.250 spac = 0.05
+
+y.mesh loc = 0.0 spac = 0.1
+y.mesh loc = 0.002 spac = 0.001
+y.mesh loc = 0.004 spac = 0.001
+y.mesh loc = 0.014 spac = 0.0005
+
+#Region 
+region num = 1 material = air
+region num = 2 material = silicon x.min = 0.0 x.max = 0.250 y.min = 0.004 y.max = 0.014
+region num = 3 material = silicon x.min = 0.0 x.max = 0.100 y.min = 0.004 y.max = 0.014 
+region num = 4 material = silicon x.min = 0.150 x.max = 0.250 y.min = 0.004 y.max = 0.014
+region num = 5 material = oxide x.min = 0.100 x.max = 0.150 y.min = 0.002 y.max = 0.004
+
+
+#Electrode
+electrode name = source x.min = 0.0 x.max = 0.050 y.min = 0.002 y.max = 0.004
+electrode name = drain x.min = 0.200 x.max = 0.250 y.min = 0.002 y.max = 0.004
+electrode name = gate x.min = 0.100 x.max = 0.150 y.min = 0.0 y.max = 0.002
+
+#Doping 
+doping uniform p.type conc = 1e18 reg = 2
+doping uniform n.type conc = 1e16 reg = 3
+doping uniform n.type conc = 1e16 reg = 4
+
+#Contact
+contact name = drain
+contact name = source
+contact name = gate
+
+save outf=mos.str
+
+#Models
+model bipolar FLDMOB
+solve init
+
+#Methods
+method newton
+
+solve init
+
+solve vsource=0
+log outf = mos1.log master
+solve vgate= 0.5 
+solve vdrain =0 vstep=0.1 vfinal=3 name=drain
+save outf = mos1.str
+log off
+
+solve init
+solve vsource = 0
+log outf = mos2.log master
+solve vgate=1 
+solve vdrain =0 vstep=0.1 vfinal=3 name=drain
+save outf = mos2.str
+log off
+
+solve init
+solve vsource=0
+log outf = mos3.log master
+solve vdrain=0.5
+solve vgate=0 vstep= 0.1 vfinal= 3 name= gate
+save outf = mos3.str
+log off
+
+solve init
+solve vsource=0
+log outf = mos4.log master
+solve vdrain =1 
+solve vgate=0 vstep=0.1 vfinal=3 name=gate
+save outf = mos4.str
+log off
+
+solve init
+solve vsource=0
+log outf = mos5.log master
+solve vdrain =3 
+solve vgate=0 vstep=0.1 vfinal=3 name=gate
+save outf = mos5.str
+log off
+
+quit

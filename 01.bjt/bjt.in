@@ -1,0 +1,70 @@
+go atlas
+
+TITLE BJT
+#meshing
+mesh space.mult=1
+x.mesh loc=0.0 spac=0.1
+x.mesh loc=3.0 spac=0.05
+x.mesh loc=3.2 spac=0.1
+x.mesh loc=3.3 spac=0.1
+x.mesh loc=3.5 spac=0.05
+x.mesh loc=4.5 spac=0.1
+x.mesh loc=7.5 spac=0.1
+x.mesh loc=8.5 spac=0.05
+x.mesh loc=8.6 spac=0.1
+x.mesh loc=8.9 spac=0.1
+x.mesh loc=9 spac=0.05
+x.mesh loc=12 spac=0.1
+
+y.mesh loc=0 spac=0.1
+y.mesh loc=0.001 spac=0.1
+y.mesh loc=3.001 spac=0.05
+y.mesh loc=3.501 spac=0.05
+y.mesh loc=6.501 spac=0.1
+y.mesh loc=6.502 spac=0.1
+
+#region
+region num=1 material=Air
+region num=2 silicon x.min=0.00 x.max=12 y.min=0.001 y.max=6.501
+region num=3 silicon x.min=3 x.max=9 y.min=0.001 y.max=3.501
+region num=4 silicon x.min=3.5 x.max=8.5 y.min=0.001 y.max=3.001
+
+#electrode
+electrode name=base x.min=3.1 x.max=3.4 y.min = 0.000 y.max=0.001
+electrode name=emitter x.min=4.5 x.max=7.5 y.min = 0.000 y.max=0.001
+electrode name=base x.min=8.6 x.max=10 y.min = 8.9 y.max=0.001
+electrode name=collector x.min=4.5 x.max=7.5 y.min=6.501 y.max=6.502
+
+#doping
+doping uniform n.type conc=1e16 reg=2
+doping uniform p.type conc=1e16 reg=3
+doping uniform n.type conc=1e16 reg=4
+
+#contact
+contact name=base
+contact name=emitter
+contact name=collector
+save outf=bjt.str
+
+#model
+model bipolar FLDMOB
+solve init
+
+#methods
+method newton
+
+#contact
+solve vbase=0
+solve vemitter=0 
+solve vcollector=0
+save outf = bjt_b0_e0_c0.str
+
+solve init
+solve vemitter=0
+log outf = bjt_b06_e0_c8.log master
+solve vbase=0.6 vcollector=0 vstep=0.5 vfinal=8 name=collector
+save outf=bjt_e0_b06_c8.str
+log off
+
+tonyplot bjt_e0_b08_c8.log
+quit
