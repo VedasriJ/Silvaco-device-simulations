@@ -1,0 +1,736 @@
+vt1=0.00788934 
+
+indicated value not found on curve
+
+dibl=0.00830457 
+
+subvt=-1.26959 V/decade
+
+Ioff_n=8.14242e-005 
+
+Ion_n=9.64527e-007 
+
+Ion_Ioff=0.0118457 
+
+indicated value not found on curve
+
+vt1=0.00788934 
+
+vt1=0.00788934 
+
+vt1=0.00788109 
+
+indicated value not found on curve
+
+dibl=0.00829588 
+
+subvt=-1.27193 V/decade
+
+Ioff_n=8.15899e-005 
+
+Ion_n=9.74662e-007 
+
+Ion_Ioff=0.0119459 
+
+indicated value not found on curve
+
+vt1=0.00788109 
+
+vt2=0.00788109 
+
+dibl=0 
+
+subvt=0.346265 V/decade
+
+Ioff_n=1.12883e-007 
+
+Ion_n=1.03492e-013 
+
+Ion_Ioff=9.16808e-007 
+
+vt1=0.00788109 
+
+indicated value not found on curve
+
+dibl=0 
+
+subvt=-1.26994 V/decade
+
+Ioff_n=8.14535e-005 
+
+Ion_n=9.6593e-007 
+
+Ion_Ioff=0.0118587 
+
+vt1=0.00788109 
+
+indicated value not found on curve
+
+dibl=0 
+
+subvt=-1.2711 V/decade
+
+Ioff_n=8.1528e-005 
+
+Ion_n=9.71128e-007 
+
+Ion_Ioff=0.0119116 
+
+indicated value not found on curve
+
+vt1=0.00788109 
+
+vt2=1.1989 
+
+dibl=-1.2537 
+
+subvt=0.765675 V/decade
+
+Ioff_n=8.1528e-005 
+
+Ion_n=9.71128e-007 
+
+Ion_Ioff=0.0119116 
+
+vt=1.1989 V
+
+vt1=0.00676351 
+
+vt2=1.19882 
+
+dibl=-1.2548 
+
+subvt=0.836759 V/decade
+
+Ioff_n=8.1528e-005 
+
+Ion_n=9.71276e-007 
+
+Ion_Ioff=0.0119134 
+
+vt=1.19882 V
+
+vt1=0.578862 
+
+vt2=1.19882 
+
+dibl=-0.652587 
+
+subvt=0.836759 V/decade
+
+Ioff_n=8.1528e-005 
+
+Ion_n=9.71276e-007 
+
+Ion_Ioff=0.0119134 
+
+vt=1.19882 V
+
+vt1=0.00676351 
+
+vt2=1.19882 
+
+dibl=-1.2548 
+
+subvt=0.836759 V/decade
+
+Ioff_n=8.1528e-005 
+
+Ion_n=9.71276e-007 
+
+Ion_Ioff=0.0119134 
+
+vt=1.19882 V
+
+indicated value not found on curve
+
+indicated value not found on curve
+
+dibl=-1.2548 
+
+subvt=-345.469 V/decade
+
+Ioff_n=0.000168726 
+
+Ion_n=0.000167372 
+
+Ion_Ioff=0.991975 
+
+indicated value not found on curve
+
+vt1=0.370631 
+
+vt2=0.335193 
+
+dibl=0.0373032 
+
+subvt=0.0719909 V/decade
+
+Ioff_n=2.29076e-012 
+
+Ion_n=0.0012459 
+
+Ion_Ioff=5.43881e+008 
+
+vt=0.335193 V
+
+vt1=0.492866 
+
+vt2=0.439552 
+
+dibl=0.05612 
+
+subvt=0.066128 V/decade
+
+Ioff_n=2.57729e-014 
+
+Ion_n=0.000230645 
+
+Ion_Ioff=8.94913e+009 
+
+vt=0.439552 V
+
+vt1=0.370631 
+
+vt2=0.335193 
+
+dibl=0.0373032 
+
+subvt=0.0719909 V/decade
+
+Ioff_n=2.29076e-012 
+
+Ion_n=0.0012459 
+
+Ion_Ioff=5.43881e+008 
+
+vt=0.335193 V
+
+indicated value not found on curve
+
+indicated value not found on curve
+
+dibl=0 
+
+subvt=-345.469 V/decade
+
+Ioff_n=0.000168726 
+
+Ion_n=0.000167372 
+
+Ion_Ioff=0.991975 
+
+indicated value not found on curve
+
+vt1=0.492866 
+
+vt2=0.439552 
+
+dibl=0.05612 
+
+subvt=0.066128 V/decade
+
+Ioff_n=2.57729e-014 
+
+Ion_n=0.000230645 
+
+Ion_Ioff=8.94913e+009 
+
+vt=0.439552 V
+
+vt1=0.505976 
+
+vt2=0.464872 
+
+dibl=0.0432674 
+
+subvt=0.0675301 V/decade
+
+Ioff_n=5.04362e-014 
+
+Ion_n=0.000229504 
+
+Ion_Ioff=4.55038e+009 
+
+vt=0.464872 V
+
+vt1=0.464872 
+
+vt2=0.464872 
+
+dibl=0 
+
+subvt=0.0675301 V/decade
+
+Ioff_n=5.04362e-014 
+
+Ion_n=0.000229504 
+
+Ion_Ioff=4.55038e+009 
+
+vt=0.464872 V
+
+vt1=0.464872 
+
+vt2=0.464872 
+
+dibl=0 
+
+subvt=0.0675301 V/decade
+
+Ioff_n=5.04362e-014 
+
+Ion_n=0.000229504 
+
+Ion_Ioff=4.55038e+009 
+
+vt=0.464872 V
+
+vt1=0.464872 
+
+vt2=0.464872 
+
+dibl=0 
+
+subvt=0.0675301 V/decade
+
+Ioff_n=5.04362e-014 
+
+Ion_n=0.000229504 
+
+Ion_Ioff=4.55038e+009 
+
+vt=0.464872 V
+
+vt1=0.464872 
+
+vt2=0.464872 
+
+dibl=0 
+
+subvt=0.0675301 V/decade
+
+Ioff_n=5.04362e-014 
+
+Ion_n=0.000229504 
+
+Ion_Ioff=4.55038e+009 
+
+vt=0.464872 V
+
+vt1=0.492866 
+
+vt2=0.439552 
+
+dibl=0.05612 
+
+subvt=0.066128 V/decade
+
+Ioff_n=2.57729e-014 
+
+Ion_n=0.000230645 
+
+Ion_Ioff=8.94913e+009 
+
+vt=0.439552 V
+
+vt1=0.526263 
+
+vt2=0.502296 
+
+dibl=0.0252284 
+
+subvt=0.0657089 V/decade
+
+Ioff_n=2.57018e-015 
+
+Ion_n=0.00018375 
+
+Ion_Ioff=7.1493e+010 
+
+vt=0.502296 V
+
+vt1=0.502296 
+
+vt2=0.502296 
+
+dibl=0 
+
+subvt=0.0657089 V/decade
+
+Ioff_n=2.57018e-015 
+
+Ion_n=0.00018375 
+
+Ion_Ioff=7.1493e+010 
+
+vt=0.502296 V
+
+indicated value not found on curve
+
+indicated value not found on curve
+
+dibl=0 
+
+subvt=3.99778 V/decade
+
+Ioff_n=1.57974e-016 
+
+Ion_n=1.5881e-016 
+
+Ion_Ioff=1.00529 
+
+indicated value not found on curve
+
+indicated value not found on curve
+
+indicated value not found on curve
+
+dibl=0 
+
+subvt=14.6206 V/decade
+
+Ioff_n=1.83978e-016 
+
+Ion_n=1.84428e-016 
+
+Ion_Ioff=1.00245 
+
+indicated value not found on curve
+
+vt1=0.492866 
+
+vt2=0.439552 
+
+dibl=0.05612 
+
+subvt=0.066128 V/decade
+
+Ioff_n=2.57729e-014 
+
+Ion_n=0.000230645 
+
+Ion_Ioff=8.94913e+009 
+
+vt=0.439552 V
+
+vt1=0.505382 
+
+vt2=0.485612 
+
+dibl=0.0208105 
+
+subvt=0.0644609 V/decade
+
+Ioff_n=3.31079e-015 
+
+Ion_n=0.000197531 
+
+Ion_Ioff=5.96628e+010 
+
+vt=0.485612 V
+
+indicated value not found on curve
+
+indicated value not found on curve
+
+dibl=0 
+
+subvt=-345.469 V/decade
+
+Ioff_n=0.000168726 
+
+Ion_n=0.000167372 
+
+Ion_Ioff=0.991975 
+
+indicated value not found on curve
+
+vt1=0.00677035 
+
+indicated value not found on curve
+
+dibl=0.00712668 
+
+subvt=-1.20779 V/decade
+
+Ioff_n=8.14352e-005 
+
+Ion_n=9.65158e-007 
+
+Ion_Ioff=0.0118519 
+
+indicated value not found on curve
+
+vt1=0.00677035 
+
+vt2=0.996217 
+
+dibl=-1.04152 
+
+subvt=-1.20779 V/decade
+
+Ioff_n=8.14352e-005 
+
+Ion_n=9.65158e-007 
+
+Ion_Ioff=0.0118519 
+
+vt=0.996217 V
+
+vt1=0.00677035 
+
+vt2=0.996217 
+
+dibl=-1.04152 
+
+subvt=-1.20779 V/decade
+
+Ioff_n=8.14352e-005 
+
+Ion_n=9.65158e-007 
+
+Ion_Ioff=0.0118519 
+
+vt=0.996217 V
+
+vt1=0.00677035 
+
+vt2=0.996217 
+
+dibl=-1.04152 
+
+subvt=-1.20779 V/decade
+
+Ioff_n=8.14352e-005 
+
+Ion_n=9.65158e-007 
+
+Ion_Ioff=0.0118519 
+
+vt=0.996217 V
+
+vt1=0.00677035 
+
+vt2=0.996217 
+
+dibl=-1.04152 
+
+subvt=-1.20779 V/decade
+
+Ioff_n=8.14352e-005 
+
+Ion_n=9.65158e-007 
+
+Ion_Ioff=0.0118519 
+
+vt=0.996217 V
+
+indicated value not found on curve
+
+vt2=0.732645 
+
+dibl=-0.764079 
+
+subvt=-1.43625 V/decade
+
+Ioff_n=1.82033e-005 
+
+Ion_n=2.48721e-008 
+
+Ion_Ioff=0.00136635 
+
+vt=0.732645 V
+
+vt1=0.492866 
+
+vt2=0.439552 
+
+dibl=0.05612 
+
+subvt=0.066128 V/decade
+
+Ioff_n=2.57729e-014 
+
+Ion_n=0.000230645 
+
+Ion_Ioff=8.94913e+009 
+
+vt=0.439552 V
+
+vt1=0.505875 
+
+vt2=0.462795 
+
+dibl=0.0453474 
+
+subvt=0.0675814 V/decade
+
+Ioff_n=5.19506e-014 
+
+Ion_n=0.000231297 
+
+Ion_Ioff=4.45225e+009 
+
+vt=0.462795 V
+
+vt1=0.560986 
+
+vt2=0.531038 
+
+dibl=0.0315242 
+
+subvt=0.069355 V/decade
+
+Ioff_n=1.31502e-014 
+
+Ion_n=0.00112473 
+
+Ion_Ioff=8.55295e+010 
+
+vt=0.480112 V
+
+vt1=0.560986 
+
+vt2=0.531038 
+
+dibl=0.0315242 
+
+subvt=0.069355 V/decade
+
+Ioff_n=1.31502e-014 
+
+Ion_n=0.00112473 
+
+Ion_Ioff=8.55295e+010 
+
+vt=0.480112 V
+
+vt1=0.346516 
+
+vt2=0.30488 
+
+dibl=0.0438274 
+
+subvt=0.0783648 V/decade
+
+Ioff_n=1.17437e-010 
+
+Ion_n=0.00276579 
+
+Ion_Ioff=2.35513e+007 
+
+vt=0.231575 V
+
+vt1=0.560986 
+
+vt2=0.531038 
+
+dibl=0.0315242 
+
+subvt=0.069355 V/decade
+
+Ioff_n=1.31502e-014 
+
+Ion_n=0.00112473 
+
+Ion_Ioff=8.55295e+010 
+
+vt=0.480112 V
+
+vt1=0.560986 
+
+vt2=0.531038 
+
+dibl=0.0315242 
+
+subvt=0.069355 V/decade
+
+Ioff_n=1.31502e-014 
+
+Ion_n=0.00112473 
+
+Ion_Ioff=8.55295e+010 
+
+vt=0.480112 V
+
+vt1=0.560986 
+
+vt2=0.531038 
+
+dibl=0.0315242 
+
+subvt=0.069355 V/decade
+
+Ioff_n=1.31502e-014 
+
+Ion_n=0.00112473 
+
+Ion_Ioff=8.55295e+010 
+
+vt=0.480112 V
+
+vt1=0.560986 
+
+vt2=0.531038 
+
+dibl=0.0315242 
+
+subvt=0.069355 V/decade
+
+Ioff_n=1.31502e-014 
+
+Ion_n=0.00112473 
+
+Ion_Ioff=8.55295e+010 
+
+vt=0.480112 V
+
+vt1=0.560986 
+
+vt2=0.531038 
+
+dibl=0.0315242 
+
+subvt=0.069355 V/decade
+
+Ioff_n=1.31502e-014 
+
+Ion_n=0.00112473 
+
+Ion_Ioff=8.55295e+010 
+
+vt=0.480112 V
+
+vt1=0.560986 
+
+vt2=0.531038 
+
+dibl=0.0315242 
+
+subvt=0.069355 V/decade
+
+Ioff_n=1.31502e-014 
+
+Ion_n=0.00112473 
+
+Ion_Ioff=8.55295e+010 
+
+vt=0.480112 V
+
+vt1=0.560986 
+
+vt2=0.531038 
+
+dibl=0.0315242 
+
+subvt=0.069355 V/decade
+
+Ioff_n=1.31502e-014 
+
+Ion_n=0.00112473 
+
+Ion_Ioff=8.55295e+010 
+
+vt=0.480112 V
+
